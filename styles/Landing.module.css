@@ -1,0 +1,79 @@
+section {
+  width: 100%;
+  height: 600px;
+  line-height: 1.25em;
+  position: relative;
+}
+
+.background-image-wraper {
+  position: absolute;
+  z-index: 3;
+  margin-left: 40%;
+}
+
+.background-image-wraper svg {
+  width: 800px;
+  height: 600px;
+}
+
+.hero-slider-content {
+  position: absolute;
+  margin-top: 3.5rem;
+  padding: 2rem;
+  z-index: 4;
+}
+
+.hero-slider-content h1 {
+  font-family: -apple-system, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  line-height: 1.25em;
+  color: #000;
+}
+
+.hero-slider-content p {
+  font-family: -apple-system, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #94a2b3;
+}
+
+.hero-slider-content button:hover {
+  box-shadow: 1px 3px 30px #00000085;
+}
+
+.action-btns {
+  position: absolute;
+  display: flex;
+}
+
+.action-btns button {
+  height: 40px;
+  background: #7854f7;
+  border-radius: 60px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-family: -apple-system, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.action-btns span {
+  font-family: -apple-system, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #94a2b3;
+  padding: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .hero-slider-content {
+    position: relative;
+    margin-top: 3.5rem;
+    padding: 2rem;
+    z-index: 16;
+  }
+}
